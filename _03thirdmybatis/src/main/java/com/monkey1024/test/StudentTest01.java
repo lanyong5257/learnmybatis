@@ -41,6 +41,7 @@ public class StudentTest01 {
     public void selectStudentById(){
         Student student = studentDao.selectStudentById(3);
         System.out.println(student);
+        System.out.println("i love git so much");
     }
     @Test
     public void selectAll(){
